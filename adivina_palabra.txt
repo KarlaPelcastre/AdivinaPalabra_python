@@ -1,0 +1,14 @@
+pal1=str(input("PALABRA 1"))
+pal2=str(input("PALABRA 1"))
+i=0
+a=0
+for char in pal1:
+    if pal2.find(char,a)!=-1:
+        a=pal2.find(char)+1
+        print(pal2.find(char,a))
+        a+=1
+        continue
+    else:
+        print("no")
+   
+    print("si")
